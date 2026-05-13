@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+    <head >
+        <meta charset="UTF-8">
+
+        <TItle >Línea de Tiempo: Evolución de la TV</TItle>
+    </head>
+    <body style="background-color: rgb(231, 113, 113);">
+
+<script>
+function toggleInfo(id) {
+    var x = document.getElementById(id);
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+        
+        <h1 style="text-align:center;"  >Historia de la Televisión</h1>
+        <section style="border-bottom: 1px solid #ccc; padding: 20px;">
+            <button onclick="toggleInfo('info1')" style="padding: 10px; cursor: pointer; background-color: #333; color: white; border: none; border-radius: 5px;">
+                Historia de la Televisión: Evolución y Impacto
+            </button>
+            <div id="info1" style="display: none; margin-top: 15px; background-color: rgb(231, 113, 113);">
+                    <p><strong>Origen del invento:</strong> PEl origen se divide en dos fases. La TV Mecánica (1927) de John Logie Baird usaba discos giratorios para "escanear" imágenes. El gran cambio fue el paso a la TV Electrónica (CRT), que permitía imágenes más claras y fluidas sin partes móviles ruidosas.</p>
+            </div>
+        </section>
+
+        <ul style="background-color: rgb(231, 113, 113);">
+            <h3>TV Mecánica (1927)</h2>
+            <li>
+                <p>John Logie Baird realiza la primera demostración pública. Las imágenes eran pequeñas y en blanco y negro.</p>
+                <img src="https://www.english-heritage.org.uk/siteassets/home/visit/blue-plaques/find-a-plaque/blue-plaques-a-e/john-logie-baird-1.jpg?maxwidth=1080&mode=none&scale=downscale&quality=60&anchor=&WebsiteVersion=20200219"  width="300" height="200"alt="Imagen1927">
+                <section style="border-bottom: 1px solid #ccc; padding: 20px;">
+    
+                <button    onclick="toggleInfo('info2')" style="padding: 10px; cursor: pointer; background-color: #333; color: white; border: none; border-radius: 5px;" >
+                    Leer más sobre el impacto
+                </button>
+
+                <div id="info2" style="display: none; margin-top: 15px; background-color: rgb(231, 113, 113);;">
+                    <STRONG>Cambios importantes:</STRONG>
+                    <P><STRONG>Sincronía y Color (1950s):</STRONG> Dejó de ser un experimento de laboratorio para ser un mueble central en el hogar.</P>
+                    
+            </section> 
+            </li>
+            <h3>La Era del CRT (Tubos de Rayos Catódicos)-(1940s - 1950s)</h2>
+            <li>
+                <p>La televisión se vuelve masiva. Aparece el color a mediados de los 50, cambiando el entretenimiento para siempre.</p>
+                <img src="https://i.pinimg.com/736x/70/4b/9d/704b9d97fdafd390aedc5199b6160a8e.jpg"  width="300  " height="300"alt="Imagen1927">
+                <section style="border-bottom: 1px solid #ccc; padding: 20px;">
+                    <button onclick="toggleInfo('info3')" style="padding: 10px; cursor: pointer; background-color: #333; color: white; border: none; border-radius: 5px;">
+                        Leer más sobre el impacto
+                    </button>
+                    <DIV id="info3" style="display: none; margin-top: 15px; background-color: rgb(231, 113, 113);;"> <p><strong>Digitalización y Delgadez (1990s - Plasma/LCD):</strong>Pasamos de tubos pesados y profundos a pantallas planas que podían colgarse en la pared.</p></DIV>
+                    
+                </section>
+            </li>
+            <h3>Llegan el Plasma y el LCD (1990s)</h2>
+            <li>
+                <p>Los televisores dejan de ser "cajas" pesadas para volverse planos, permitiendo pantallas mucho más grandes.</p>
+                <img src="https://i.pinimg.com/736x/ea/c6/22/eac622abb2b5e8dc008cc101cf38b595.jpg" width="350" height="390" alt="">
+                <!-- -->
+                <section style="border-bottom: 1px solid #ccc; padding: 20px;">
+                    <button onclick="toggleInfo('info4')" style="padding: 10px; cursor: pointer; background-color: #333; color: white; border: none; border-radius: 5px;">
+                        Leer más sobre el impacto
+                    </button>
+                    <DIV id="info4" style="display: none; margin-top: 15px; background-color: rgb(231, 113, 113);;"> <p><strong>Conectividad (2010s - Smart TV):</strong>La TV dejó de ser un receptor pasivo para convertirse en una computadora con internet.</p></DIV>
+                    
+                </section>
+
+            </li>
+            <h3>Smart TV y resolución 4K(2010s)</h2>
+            <li>
+                <p>La TV se conecta a internet. El streaming (Netflix, YouTube) reemplaza a la programación tradicional.</p>
+                <img src="	https://i.pinimg.com/736x/86/cc/48/86cc487742de92512eaf39e0deb2e2e1.jpg" width="450"  height="350">
+
+                <section style="border-bottom: 1px solid #ccc; padding: 20px;">
+                    <button onclick="toggleInfo('info5')" style="padding: 10px; cursor: pointer; background-color: #333; color: white; border: none; border-radius: 5px;">
+                        Leer más sobre el impacto
+                    </button>
+                    <DIV id="info5" style="display: none; margin-top: 15px; background-color: rgb(231, 113, 113);;"> <p><strong>Problema que ayudó a resolver:</strong>La necesidad de recibir información y entretenimiento visual de forma inmediata en el hogar, rompiendo la barrera de la distancia que antes solo cubría la radio o el periódico.</p></DIV>
+                    
+                </section>
+
+            </li>
+            <h3>OLED y 8k (Hoy)</h3>    
+            <li>
+                <p>Colores perfectos, pantallas curvas o enrollables y una definición que supera la capacidad del ojo humano.</p>
+                <img src="https://i.pinimg.com/736x/54/4b/94/544b94b9c99c5cbd3a755af9f08aed81.jpg" width="400" height="500" alt="">
+                <section style="border-bottom: 1px solid #ccc; padding: 20px;">
+                    <button onclick="toggleInfo('info6')" style="padding: 10px; cursor: pointer; background-color: #333; color: white; border: none; border-radius: 5px;">
+                        Leer más sobre el impacto
+                    </button>
+                    <DIV id="info6" style="display: none; margin-top: 15px; background-color: rgb(231, 113, 113);;"> <p><strong>Efecto en la vida de las personas:</strong>Cambió la dinámica familiar (reunirse frente al televisor), democratizó el acceso a la cultura y las noticias globales, y transformó la publicidad y la política.</p></DIV>
+                    
+                </section>
+            </li>
+
+        </ul>
+        
+            
+
+        </body>
+</html>
+

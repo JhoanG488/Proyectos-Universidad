@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Línea de Tiempo: Evolución de la TV</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f4; padding: 20px; }
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            max-width: 800px;
+            margin: auto;
+            border-left: 4px solid #3498db;
+            padding-left: 20px;
+        }
+        .event {
+            background: white;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .event::before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            background: #3498db;
+            border-radius: 50%;
+            position: absolute;
+            left: -30px;
+            top: 20px;
+        }
+        .year { font-weight: bold; color: #3498db; font-size: 1.2em; }
+        h3 { margin-top: 5px; }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align:center;">Hitos en la Historia de la Televisión</h2>
+
+    <div class="timeline">
+        <div class="event">
+            <div class="year">1927</div>
+            <h3>TV Mecánica</h3>
+            <p>John Logie Baird realiza la primera demostración pública. Las imágenes eran pequeñas y en blanco y negro.</p>
+        </div>
+
+        <div class="event">
+            <div class="year">1940s - 1950s</div>
+            <h3>La Era del CRT (Tubos de Rayos Catódicos)</h3>
+            <p>La televisión se vuelve masiva. Aparece el color a mediados de los 50, cambiando el entretenimiento para siempre.</p>
+        </div>
+
+        <div class="event">
+            <div class="year">1990s</div>
+            <h3>Llegan el Plasma y el LCD</h3>
+            <p>Los televisores dejan de ser "cajas" pesadas para volverse planos, permitiendo pantallas mucho más grandes.</p>
+        </div>
+
+        <div class="event">
+            <div class="year">2010s</div>
+            <h3>Smart TV y resolución 4K</h3>
+            <p>La TV se conecta a internet. El streaming (Netflix, YouTube) reemplaza a la programación tradicional.</p>
+        </div>
+
+        <div class="event">
+            <div class="year">Hoy</div>
+            <h3>OLED y 8K</h3>
+            <p>Colores perfectos, pantallas curvas o enrollables y una definición que supera la capacidad del ojo humano.</p>
+        </div>
+    </div>
+
+</body>
+</html>
